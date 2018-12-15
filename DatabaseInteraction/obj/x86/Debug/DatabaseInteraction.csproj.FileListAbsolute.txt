@@ -1,0 +1,10 @@
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/bin/Debug/DatabaseInteraction.exe
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/bin/Debug/DatabaseInteraction.pdb
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/obj/x86/Debug/DatabaseInteraction.csprojAssemblyReference.cache
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/obj/x86/Debug/DatabaseInteraction.csproj.CoreCompileInputs.cache
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/obj/x86/Debug/DatabaseInteraction.exe
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/obj/x86/Debug/DatabaseInteraction.pdb
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/bin/Debug/MySql.Data.dll
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/bin/Debug/Google.Protobuf.dll
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/bin/Debug/MySql.Data.xml
+/home/chris/Projects/DatabaseInteraction/DatabaseInteraction/obj/x86/Debug/DatabaseInteraction.csproj.CopyComplete
