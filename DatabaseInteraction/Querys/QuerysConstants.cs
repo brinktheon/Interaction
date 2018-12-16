@@ -19,5 +19,13 @@ namespace DatabaseInteraction
         public const string SELECT_ALL_PROVIDER = "SELECT * FROM Provider";
         public const string SELECT_ALL_STORE = "SELECT * FROM Store";
         public const string SELECT_ALL_WAREHOUSE = "SELECT * FROM Warehouse";
+
+        // Select By ID
+        public const string SELECT_PRODUCT_BY_WAREHOUSE_ID = "select * from Product as p " +
+        	"inner join Warehouse_Product as wp " +
+        	    "on wp.product_id = p.id " +
+            "inner join Warehouse as w " +
+        	    "on w.id = wp.warehouse_id " +
+            "where w.id = {0};";
     }
 }

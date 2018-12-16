@@ -7,10 +7,10 @@ namespace DatabaseInteraction
     {
         public static void Main(string[] args)
         {
-            var list = new List<Warehouse>();
-            ImplRepository<Warehouse> repository = 
-                    new ImplRepository<Warehouse>(QuerysConstants.STRING_CONNECTION);
-            list = repository.Load(QuerysConstants.SELECT_ALL_WAREHOUSE);
+            var list = new List<Product>();
+            ImplRepository<Product> repository = 
+                    new ImplRepository<Product>(QuerysConstants.STRING_CONNECTION);
+            list = repository.Load(String.Format(QuerysConstants.SELECT_PRODUCT_BY_WAREHOUSE_ID, 1));
 
             foreach (var val in list)
             {
