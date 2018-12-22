@@ -44,7 +44,7 @@ namespace DatabaseInteraction
                 Console.WriteLine(e.Message);
             }
         }
-        public virtual List<T> Load(string sql)
+        public virtual List<T> ExecuteQuery(string sql)
         {
             OpenConnection(stringConnection);
 
