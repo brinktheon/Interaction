@@ -62,5 +62,12 @@ namespace DatabaseInteraction
             "inner join Warehouse as w " +
         	    "on w.id = wp.warehouse_id " +
             "where w.id = {0};";
+        // Возвращает все магазины данного продукта
+        public const string SELECT_ALL_STORES_BY_PRODUCT_ID = "select p.id as productId, p.name as productName, p.price as productPrice, p.quantity as productQuantity, p.receiptDate as productReceiptDate, p.status, s.dateSending, s.quantity as sendingQuantity, st.name as storeName, st.address as storeAddress from Product as p " +
+        	"inner join Sending as s " +
+        	    "on p.id = s.product_id " +
+        	"inner join Store as st " +
+        	    "on st.id = s.store_id " +
+        	"where p.id = {0};";
     }
 }

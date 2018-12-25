@@ -48,6 +48,7 @@
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\ImplRepository.cs" />
     <Compile Include="Querys\QuerysConstants.cs" />
+    <Compile Include="Model\ProductStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />

@@ -7,10 +7,10 @@ namespace DatabaseInteraction
     {
         public static void Main(string[] args)
         {
-            var list = new List<Provider>();
-            ImplRepository<Provider> repository = 
-                    new ImplRepository<Provider>(QuerysConstants.STRING_CONNECTION);
-            list = repository.ExecuteQuery(String.Format(QuerysConstants.UPDATE_PROVIDER, "McDonald", 7));
+            var list = new List<ProductStore>();
+            ImplRepository<ProductStore> repository = 
+                    new ImplRepository<ProductStore>(QuerysConstants.STRING_CONNECTION);
+            list = repository.ExecuteQuery(String.Format(QuerysConstants.SELECT_ALL_STORES_BY_PRODUCT_ID, 1));
 
             foreach (var val in list)
             {

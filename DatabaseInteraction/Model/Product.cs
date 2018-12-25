@@ -10,8 +10,6 @@ namespace DatabaseInteraction
         public string ReceiptDate { get; set; }
         public bool Status { get; set; }
 
-
-
         internal string GetInfo()
         {
             return "Product:" +
